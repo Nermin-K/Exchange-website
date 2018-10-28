@@ -1,0 +1,163 @@
+.color{
+    color:#D5331D;
+}
+
+.sep-bor{
+    border-top:1px dashed #ccc;
+    border-bottom:1px dashed #ccc;
+    margin:20px 0px;
+    height:5px;
+}
+
+.sep{
+    height: 5px;
+    margin:20px 0px;
+    background: url("../img/sep.png") repeat;
+}
+
+.blocky{
+    margin:30px 0px;
+}
+
+.page-title{
+    margin:10px 0px;
+}
+
+.page-title i{
+    font-size:30px;
+    margin-right:5px;
+}
+
+.page-title h2{
+    font-size:35px;
+}
+
+.page-title small{
+    font-size:21px;
+    margin-left:5px;
+}
+
+.account-content h3{
+    font-size:16px;
+    font-weight:bold;
+    margin:0px;
+    margin-bottom:10px;
+    padding-bottom:10px;
+    border-bottom:1px solid #eee;
+    font-family:"Open Sans", sans-serif;
+}
+
+.account-content h4{
+    font-size:15px;
+    font-weight:bold;
+    margin:0px;
+    margin-bottom:15px;
+    padding-bottom:10px;
+    border-bottom:1px solid #eee;
+    font-family:"Open Sans", sans-serif;
+}
+
+.account-content address{
+    font-size:14px;
+    line-height:25px;
+}
+
+.sidey{
+    margin-bottom:30px;
+   /* margin-top:180px;*/
+}
+
+.sidey .nav, .sidey .nav ul, .sidey .nav li {
+    list-style: none;
+}
+
+.sidey .nav ul {
+    padding: 0;
+    margin: 0 0 0 0;
+}
+
+.sidey .nav {
+    padding: 0px;
+    margin: 0px;
+    border-top:1px solid #08080B;
+}
+
+.sidey .nav > li {
+    margin: 0;
+}
+
+.sidey .nav > li li {
+    margin: 0;
+}
+
+.sidey .nav > li li a{
+    padding-left:25px;
+}
+
+.sidey .nav > li > a {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 12px 15px;
+    color: #fff;
+    background:#D5331D;
+    display: block;
+    text-decoration: none;
+    border:1px solid #08080B;
+    border-top:0px;
+    font-weight:bold;
+}
+
+.sidey .nav > li > ul > li > a {
+    font-size: 13px;
+    line-height: 20px;
+    padding: 10px 10px 10px 25px;
+    color: #666;
+    background:#08080B;
+    display: block;
+    text-decoration: none;
+    border:1px solid #ddd;
+    border-top:0px;
+}
+
+.sidey .nav a:hover, .sidey .nav li.active > a {
+    background: #08080B;
+    color: #fff;
+    border-bottom:1px solid #08080B;
+}
+
+.sidey .nav > li.active > a  {
+    background: #444;
+}
+
+.sidey .nav a .caret {
+    float: right;
+    width: 0;
+    height: 0;
+    display: inline-block;
+    vertical-align: top;
+    border-top: 4px solid #fff;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    content: "";
+    margin-top: 8px;
+    margin-left: 2px;
+}
+
+.sidey .nav a:hover .caret {
+    border-top-color: #fff;
+}
+
+.sidey .nav li.open > a > .caret {
+    border-top: none;
+    border-bottom: 4px solid #fff !important;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+
+.sidey .nav li.open > a:hover > .caret {
+    border-bottom-color: #08080B;
+}
+
+.marginLeft {
+    margin-left:285px;
+}

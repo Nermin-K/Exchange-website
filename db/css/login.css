@@ -1,0 +1,238 @@
+/*--login--*/
+.span_1_of_login {
+	width: 47.2%;
+}
+.col_1_of_login {
+	display: block;
+	float: left;
+	margin: 1% 0 1% 4.6%;
+}
+.col_1_of_login:first-child {
+	margin-left: 0;
+}
+h4.title {
+	color: #000;
+	margin-bottom: 0.5em;
+	font-size: 1.1em;
+	line-height: 1.2;
+	text-transform: uppercase;
+}
+.span_1_of_login p {
+	color:#999;
+	font-size:0.8125em;
+	line-height: 1.8em;
+}
+h5.sub_title{
+	color:#000;
+	font-size:0.8125em;
+	text-transform:uppercase;
+	margin: 3%;
+}
+.button1 {
+	margin-top:3%;
+}
+.button1 input[type="submit"] {
+	background: #D5331D;
+	color: #FFF;
+	font-size: 0.8em;
+	padding: 8px 20px;
+	/* border-radius: 5px; */
+	border-bottom: 4px solid #1D1C1C;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+	cursor: pointer;
+	outline: none;
+	text-transform: uppercase;
+	border-right: none;
+	border-left: none;
+	border-top: none;
+	float: left;
+}
+.button1 input[type="submit"]:hover{
+	background:#D5331D;
+}
+.login{
+	padding:3% 0;
+}
+.comments-area input[type="text"] {
+	padding: 10px 15px;
+	width: 97%;
+	color:#000;
+	font-size: 0.8125em;
+	border:1px solid #f0f0f0;
+	background:#fff;
+	outline: none;
+	display: block;
+	font-family: 'Open Sans', sans-serif;
+}
+.comments-area input[type="text"]:hover, .comments-area input[type="password"]:hover{
+	border:1px solid #DBDADA;
+}
+.comments-area input[type="password"] {
+	padding: 10px 15px;
+	width: 97%;
+	color:#000;
+	font-size: 0.8125em;
+	border:1px solid #f0f0f0;
+	background:#fff;
+	outline: none;
+	display: block;
+	font-family: 'Open Sans', sans-serif;
+}
+.comments-area span {
+	color: #A60000;
+}
+.comments-area p {
+	padding: 8px 0;
+}
+.comments-area input[type="submit"] {
+	background: #555;
+	color: #FFF;
+	/* font-size: 0.8em; */
+	padding: 8px 20px;
+	/* border-radius: 5px; */
+	border-bottom: 4px solid #1D1C1C;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+	cursor: pointer;
+	outline: none;
+	text-transform: uppercase;
+	border-right: none;
+	border-left: none;
+	border-top: none;
+	float: right;
+}
+.comments-area input[type="submit"]:hover{
+	background:#444;
+}
+p#login-form-remember{
+	float:left;
+}
+p#login-form-remember label a {
+	text-decoration: underline;
+	color:#000;
+}
+p#login-form-remember label a:hover{
+	text-decoration:none;
+}
+.col_1_of_2 {
+	display: block;
+	float: left;
+	margin: 1% 0 1% 1.6%;
+}
+.span_1_of_2 {
+	width: 49.2%;
+}
+.col_1_of_2:first-child {
+	margin-left: 0;
+}
+.register_account{
+	padding:3% 0;
+}
+.register_account form input[type="text"], .register_account form select {
+	font-size: 0.8125em;
+	color: #999;
+	padding: 8px;
+	outline: none;
+	margin: 10px 0;
+	width: 95%;
+	font-family: 'Open Sans', sans-serif;
+	border:1px solid #f0f0f0;
+}
+.register_account form input[type="text"]:hover, .register_account form select:hover{
+	border:1px solid #DBDADA;
+}
+.register_account form textarea, .register_account form select {
+	font-size: 0.8125em;
+	color: #999;
+	padding: 8px;
+	outline: none;
+	margin: 10px 0;
+	width: 95%;
+	font-family: 'Open Sans', sans-serif;
+	border:1px solid #f0f0f0;
+}
+.register_account form textarea:hover, .register_account form select:hover{
+	border:1px solid #DBDADA;
+}
+.register_account form input[type="time"], .register_account form select {
+	font-size: 0.8125em;
+	color: #999;
+	padding: 8px;
+	outline: none;
+	margin: 10px 0;
+	width: 95%;
+	font-family: 'Open Sans', sans-serif;
+	border:1px solid #f0f0f0;
+}
+.register_account form input[type="time"]:hover, .register_account form select:hover{
+	border:1px solid #DBDADA;
+}
+/*.register_account form input[type="datetime"], .register_account form select {
+	font-size: 0.8125em;
+	color: #999;
+	padding: 8px;
+	outline: none;
+	margin: 10px 0;
+	width: 95%;
+	font-family: 'Open Sans', sans-serif;
+	border:1px solid #f0f0f0;
+}
+.register_account form input[type="datetime"]:hover, .register_account form select:hover{
+	border:1px solid #DBDADA;
+}*/
+button.grey {
+	background: #D5331D;
+	color: #FFF;
+	/* font-size: 0.8em; */
+	padding: 8px 20px;
+	/* border-radius: 5px; */
+	border-bottom: 4px solid #1D1C1C;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+	cursor: pointer;
+	outline: none;
+	text-transform: uppercase;
+	border-right: none;
+	border-left: none;
+	border-top: none;
+	float:left;
+}
+button.grey:hover{
+	background:#FFAF02;
+	border-bottom: 4px solid #DF9A06;
+}
+p.terms {
+	float: left;
+	font-size: 12px;
+	padding: 15px 0 0 15px;
+}
+p.terms a, p.note a {
+	text-decoration: underline;
+	color: #555;
+}
+p.terms a:hover, p.note a:hover{
+	text-decoration:none;
+}
+.register_account form input[type="text"].code {
+	width: 15%;
+}
+.register_account form input[type="text"].number {
+	width:74.8%;
+}
+p.code {
+	color:#999;
+	font-size:0.8125em;
+}
